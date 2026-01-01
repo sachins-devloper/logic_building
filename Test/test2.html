@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Hello</h2>
+    <script>
+
+        // fetch('https://fakestoreapi.com/products').then(res => res.json())
+        // // .then(res => console.log(res));
+        // console.log(Window)
+        // console.log("===============");
+
+        // console.log(global);
+
+        // setTimeout(()=> {
+        //     console.log("Hello")
+        // }, 3000)
+
+        // let a = null;
+        // console.log(a);
+
+
+        // let userName = true;
+        // let password = true;
+
+        // if (userName && password){
+        //     console.log("Login Successfull");
+        // } else{
+        //     console.log("Login failed");
+
+        // }
+
+        // const checkLogin = (username, password) => {
+        //     // let userName = true, passWord = ;
+        //     if(username && password) {
+        //         return `Login Success`
+        //     } else{
+        //         return `Login failed` 
+        //     }  
+
+        //     return {
+        //         userName: username,
+        //         passWord: password
+        //     }
+        // }
+
+        // const user1 = checkLogin("sachin@gmail.com", "hello@world");
+        // console.log(user1)
+
+        // const checkLogin = (username, password) =>{
+        //     if(username && password){
+        //         return{
+        //             status:"Success",
+        //             username: username,
+        //             password: password
+        //         }
+        //     } else {
+        //         return {
+        //             status: "Failed",
+        //             username: null,
+        //             password: null
+        //         }
+        //     }
+        // };
+
+        // const user1 = checkLogin("sachin@gmail.com", "hello@world");
+        // console.log(user1)
+
+        // let isOnline = !true;
+        // let status = isOnline ? "Online" : "Offline";
+        // console.log(status);
+
+        // let day = 11;
+        // switch (day) {
+        //     case 1:
+        //         console.log("Sunday");
+        //         break;
+        //     case 2:
+        //         console.log("Monday")
+        //         break;
+        //     case 3:
+        //         console.log("Tuesday");
+        //         break;
+        //     case 4:
+        //         console.log("Wednesday");
+        //         break;
+        //     case 5:
+        //         console.log("Thursday");
+        //         break;
+        //     case 6:
+        //         console.log("Friday");
+        //         break;
+        //     case 7:
+        //         console.log("Saturday");
+        //         break;
+        //         default:
+        //             console.log("Give 1 to 7")
+        // }
+
+
+        // console.log(day
+
+        let url = 'https://fakestoreapi.com/products/1';
+
+        async function fetchData(params) {
+
+
+            try {
+                const data = await fetch(url);
+                const res = await data.json();
+                console.log(res);
+            } catch (error) {
+                console.log(error)
+            }
+        }
+
+        fetchData();
+
+
+
+
+    </script>
+</body>
+
+</html>
