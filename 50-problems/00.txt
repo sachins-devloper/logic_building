@@ -1,0 +1,121 @@
+🟢 Level 1: Absolute Beginner (Warm-up)
+
+Focus: loops, conditions, arrays, strings
+
+1. Two Sum
+
+2.Running Sum of 1d Array
+
+3. Richest Customer Wealth
+
+4. Kids With the Greatest Number of Candies
+
+5. Shuffle the Array
+
+6. Number of Good Pairs
+
+7. Maximum Number of Words Found in Sentences
+
+8. Jewels and Stones
+
+9. Defanging an IP Address
+
+10. Final Value of Variable After Performing Operations
+
+-----------------------------------------------------------------------------
+
+🟢 Level 2: Arrays & Math Basics
+
+Focus: traversal, math, edge cases
+
+Best Time to Buy and Sell Stock
+
+Plus One
+
+Move Zeroes
+
+Remove Duplicates from Sorted Array
+
+Merge Sorted Array
+
+Contains Duplicate
+
+Missing Number
+
+Single Number
+
+Majority Element
+
+Intersection of Two Arrays II
+
+🟢 Level 3: Strings (Must-Know)
+
+Focus: string traversal, frequency counting
+
+Valid Palindrome
+
+Reverse String
+
+Reverse Words in a String III
+
+Implement strStr()
+
+Valid Anagram
+
+Longest Common Prefix
+
+Is Subsequence
+
+First Unique Character in a String
+
+Roman to Integer
+
+Count and Say
+
+🟡 Level 4: HashMap & Set (Core Logic)
+
+Focus: frequency, lookup optimization
+
+Two Sum II – Input Array Is Sorted
+
+Happy Number
+
+Contains Duplicate II
+
+Ransom Note
+
+Word Pattern
+
+Find the Difference
+
+Find All Numbers Disappeared in an Array
+
+Find Pivot Index
+
+Set Mismatch
+
+Degree of an Array
+
+🟡 Level 5: Stack, Recursion & Pointers
+
+Focus: thinking in patterns
+
+Valid Parentheses
+
+Baseball Game
+
+Min Stack
+
+Power of Two
+
+Power of Three
+
+Fibonacci Number
+
+Climbing Stairs
+
+Pascal’s Triangle
+
+Remove Linked List Elements
+
+Middle of the Linked List

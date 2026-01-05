@@ -13,35 +13,67 @@
 
 
 let nums = [2, 7, 11, 15];
-let target = 9;
+let target = 13;
 
-function sumOfTwo(nums, target) {
-    const map = new Map();
-    for (let i = 0; i < nums.length; i++) {
-        let complement = target - nums[i];
-        if (map.has(complement)) {
-            return [map.get(complement), i];
+function sumOfTwo(nums, target) { 
+    for (let i = 0; i < nums.length; i++){
+        for (let j = i + 1; nums.length; j++){
+            if (nums[i] + nums[j] == target) {
+                return [i, j];
+            } else {
+                return []
+            }
         }
-        map.set(nums[i], i)
     }
-
-    return[];
 }
 
+
 let test = sumOfTwo(nums, target)
-
-
 console.log(test);
 
-// let myMap = new Map([
-//     ["name", "sachin"],
-//     ["age", 21],
-//     ["role", "developer"]
-// ]);
+// function sumOfTwo(nums, target) {
+//     const map = new Map();
+//     for (let i = 0; i < nums.length; i++) {
+//         let complement = target - nums[i];
+//         if (map.has(complement)) {
+//             return [map.get(complement), i];
+//         }
+//         map.set(nums[i], i)
+//     }
 
-// myMap.set('Team', 'Mobile App');
+//     return[];
+// }
+
+// let test = sumOfTwo(nums, target)
+
+
+// console.log(test);
+
+let myMap = new Map([
+    ["name", "sachin"],
+    ["age", 21],
+    ["role", "developer"]
+]);
+
+myMap.set('Team', 'Mobile App');
 // let test = myMap.get('name')
 // let test1 = myMap.has("ks")
 
-// console.log(myMap)
+// console.log(myMap instanceof Map)
 // console.log(test1);
+
+// myMap.forEach((idx, val) => {
+//     console.log(`${idx} = ${val}`)
+// } )
+
+let fruits = new Map();
+fruits.set('Apple', 500);
+fruits.set('Orange', 300);
+fruits.set('Banana', 500);
+fruits.set('Pine', 500);
+
+// console.log(fruits);
+
+// fruits.forEach((key, val) => {
+//     console.log(`${val} = ${key}`);
+// })
