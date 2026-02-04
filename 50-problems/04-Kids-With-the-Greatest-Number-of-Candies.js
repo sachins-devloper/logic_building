@@ -35,15 +35,15 @@
 // 1 <= candies[i] <= 100
 // 1 <= extraCandies <= 50
 
-let candies = [12, 1, 12];
-let extraCandies = 10;
+// let candies = [12, 1, 12];
+// let extraCandies = 10;
 
-function findAns(candies, extraCandies) {
-    let maxCandy = Math.max(...candies);
-    return candies.map(candy => {
-        return candy + extraCandies >= maxCandy;
-    })
-}
+// function findAns(candies, extraCandies) {
+//     let maxCandy = Math.max(...candies);
+//     return candies.map(candy => {
+//         return candy + extraCandies >= maxCandy;
+//     })
+// }
 
-let test = findAns(candies, extraCandies);
-console.log(test)
+// let test = findAns(candies, extraCandies);
+// console.log(test)

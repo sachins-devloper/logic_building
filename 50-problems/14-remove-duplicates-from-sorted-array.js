@@ -19,7 +19,7 @@
 // }
 // If all assertions pass, then your solution will be accepted.
 
- 
+
 
 // Example 1:
 
@@ -54,5 +54,24 @@ function returnArr(nums) {
     return arr;
 }
 
-let test = returnArr(nums);
-console.log(test);
+
+// let test = returnArr(nums);
+// console.log(test);
+
+// const printName = (name) => {
+//     return `Hello ${name}`
+// // }
+
+// let test = printName('sachin');
+// console.log(test);
+
+let arr = [1, 2, 3, 4, 5];
+
+const sumNum = (arr) => {
+    return arr.reduce((acc, curr) => acc + curr, 0);
+}
+
+let test1 = sumNum(arr);
+console.log(test1)
+
+

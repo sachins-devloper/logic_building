@@ -1,0 +1,32 @@
+// 242. Valid Anagram
+// Easy
+// Topics
+// premium lock icon
+// Companies
+// Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+ 
+
+// Example 1:
+
+// Input: s = "anagram", t = "nagaram"
+
+// Output: true
+
+// Example 2:
+
+// Input: s = "rat", t = "car"
+
+// Output: false
+
+// const s = "rat", t = "car";
+
+const s = "anagram", t = "nagaram";
+
+
+const anagram = (s, t) => {
+    return s.split('').sort().join('') === t.split('').sort().join('');
+}
+
+let test = anagram(s, t);
+console.log(test);

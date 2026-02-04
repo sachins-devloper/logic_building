@@ -2,7 +2,7 @@
 
 // A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
 
- 
+
 
 // Example 1:
 
@@ -25,7 +25,7 @@
 
 // Input: accounts = [[2,8,7],[7,1,3],[1,9,5]]
 // Output: 17
- 
+
 
 // Constraints:
 
@@ -65,22 +65,35 @@
 let accounts = [[1, 5], [7, 3], [3, 5]];
 let arr = [];
 
-for (let i = 0; i < accounts.length; i++){
+for (let i = 0; i < accounts.length; i++) {
     let sum = 0;
-    for (let j = 0; j < accounts[i].length; j++){
+    for (let j = 0; j < accounts[i].length; j++) {
         sum += accounts[i][j];
     }
     arr.push(sum)
 }
 
-console.log(Math.max(...arr));
+// console.log(Math.max(...arr));
 
 
 // =========================
 // var maximumWealth = function(accounts) {
 //     return Math.max(
-//         ...accounts.map(customer => 
+//         ...accounts.map(customer =>
 //          customer.reduce((sum, cus) => sum + cus, 0)
 //         )
 //     )
 // };
+
+
+// jkfldfkjkldfg
+
+/*
+kjfivjp
+mkcsdf
+jvkd
+*/
+let nameMy = 'Raj'
+
+console.log(`Hello ${nameMy}!!`);
+

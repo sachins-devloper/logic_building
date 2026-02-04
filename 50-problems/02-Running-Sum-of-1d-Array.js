@@ -21,13 +21,29 @@
 
 let nums = [3, 1, 2, 10, 1];
 
-let sum = 0;
-let arr = [];
-for (let i = 0; i < nums.length; i++){
-    sum += nums[i];
-    // console.log(sum)
-    arr.push(sum);
+// let sum = 0;
+// let arr = [];
+// for (let i = 0; i < nums.length; i++){
+//     sum += nums[i];
+//     // console.log(sum)
+//     arr.push(sum);
+// }
+// console.log(arr);
+
+
+
+function runningSum(nums) {
+    let sum = 0;
+    let arr = [];
+    for (let val of nums) {
+        sum += val;
+        arr.push(sum);
+    }
+    return arr;
 }
-console.log(arr);
+
+let test = runningSum(nums);
+console.log(test);
+
 
 
