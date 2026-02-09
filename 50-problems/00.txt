@@ -52,25 +52,25 @@ Focus: traversal, math, edge cases
 
 Focus: string traversal, frequency counting
 
-Valid Palindrome
+21. Valid Palindrome
 
-Reverse String
+22. Reverse String
 
-Reverse Words in a String III
+23. Reverse Words in a String III
 
-Implement strStr()
+24. Implement strStr()
 
-Valid Anagram
+25. Valid Anagram
 
-Longest Common Prefix
+26. Longest Common Prefix
 
-Is Subsequence
+27. Is Subsequence
 
-First Unique Character in a String
+28. First Unique Character in a String
 
-Roman to Integer
+29. Roman to Integer
 
-Count and Say
+30. Count and Say
 
 🟡 Level 4: HashMap & Set (Core Logic)
 
